@@ -1,0 +1,7 @@
+.Home {
+	display: flex;
+	flex-flow: wrap;
+	font-weight: 600;
+	gap: 10px;
+	padding: 20px;
+}

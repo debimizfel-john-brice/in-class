@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 1 -->
+    <label>Email: </label>
+    <input type="text" id="email_box" />
+    <button onclick="show_email()">Change paragraph</button>
+
+    <p id="p"></p>
+
+    <!-- 2 -->
+    <label>Number 1: </label>
+    <input type="number" id="number1_box" />
+    <br />
+    <br />
+    <label>Number 2: </label>
+    <input type="number" id="number2_box" />
+    <button onclick="show_sum()">Sum</button>
+    <span id="answer"></span>
+    <br /><br />
+
+    <!-- 3 -->
+    <form action="/save.html" onsubmit="send()">
+      <label>Full Name: </label>
+      <input type="text" name="full_name" id="full_name_box" />
+      <span id="full_name_box_error"></span>
+
+      <br /><br />
+
+      <label>Address: </label>
+      <textarea name="address" id="address_box"></textarea>
+      <span id="address_box_error"></span>
+
+      <button>Send</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>

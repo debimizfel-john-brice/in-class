@@ -1,0 +1,3 @@
+class WildeCat extends Cat {
+
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="saved.html">
+      <label for="firstName">First Name</label>
+      <input type="text" id="firstName" name="firstName" required minlength="2" maxlength="10" />
+      <br /><br />
+
+      <label for="lastName">Last Name</label>
+      <input type="text" id="lastName" name="lastName" required />
+      <br /><br />
+
+      <label for="age">Age</label>
+      <input type="number" name="age" id="age" required min="16" max="99" step="0.1">
+      <br><br>
+
+      <label for="female">Female</label>
+      <input type="radio" name="sex" id="female" value="female" required />
+      <br /><br />
+
+      <label for="male">Male</label>
+      <input type="radio" name="sex" id="male" value="male" />
+      <br /><br />
+
+      <label for="city">City</label>
+      <select name="city" id="city" required>
+        <option value=""></option>
+        <option>Tel Aviv</option>
+        <option>Haifa</option>
+        <option>Jerusalem</option>
+      </select>
+      <br /><br />
+      <button>Save</button>
+    </form>
+  </body>
+</html>

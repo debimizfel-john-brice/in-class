@@ -1,0 +1,10 @@
+.Header {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+.Header>h1 {
+    margin: 0;
+}

@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(45deg, lightblue, white);
+}
+
+.box {
+  background: white;
+  border: 1px solid lightcyan;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 20px;
+}

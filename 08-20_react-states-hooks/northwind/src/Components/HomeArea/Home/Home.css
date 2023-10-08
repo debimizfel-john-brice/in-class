@@ -1,0 +1,6 @@
+.Home {
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    flex-flow: wrap;
+}

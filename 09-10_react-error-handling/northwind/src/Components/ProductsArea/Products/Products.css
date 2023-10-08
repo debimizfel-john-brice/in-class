@@ -1,0 +1,7 @@
+.Products>div {
+    display: flex;
+    flex-flow: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 5px;
+}

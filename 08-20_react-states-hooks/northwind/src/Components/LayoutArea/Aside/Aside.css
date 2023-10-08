@@ -1,0 +1,14 @@
+.Aside {
+    padding: 20px;
+}
+
+.Aside>nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Aside>nav>a {
+    font-size: 25px;
+
+}

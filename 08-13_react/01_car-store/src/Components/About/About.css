@@ -1,0 +1,22 @@
+.About {
+    border: solid 1px black;
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+
+    &>p {
+        color: rgb(170, 170, 170);
+    }
+
+    & .image {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+
+        & img {
+            width: 200px;
+        }
+
+
+    }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button onclick="change_p()">Change paragraph</button>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos adipisci illum facere, corrupti ducimus magnam! Fuga necessitatibus quae dolore, quisquam odio alias, est, asperiores ducimus a eum deserunt. Et, numquam?</p>
+
+    <p id="p2" dir="ltr" style="color: blue">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos adipisci illum facere, corrupti ducimus magnam! Fuga necessitatibus quae dolore, quisquam odio alias, est, asperiores ducimus a eum deserunt. Et, numquam?</p>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos adipisci illum facere, corrupti ducimus magnam! Fuga necessitatibus quae dolore, quisquam odio alias, est, asperiores ducimus a eum deserunt. Et, numquam?</p>
+
+    <label>First Name: </label>
+    <input type="text" id="name_box" />
+    <button onclick="show_text()">Show text</button>
+
+    <hr />
+
+    <form action="save.html">
+      <label>Full Name: </label>
+      <input type="text" name="full_name" required />
+
+      <br /><br />
+
+      <label>Address: </label>
+      <textarea name="address" id="" cols="30" rows="10" required minlength="10"></textarea>
+
+      <button>Send</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>

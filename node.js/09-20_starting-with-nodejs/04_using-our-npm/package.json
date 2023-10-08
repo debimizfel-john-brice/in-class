@@ -1,0 +1,18 @@
+{
+  "name": "deborah-password-generator",
+  "version": "1.0.0",
+  "description": "Generate a random password",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "Password generator",
+    "random password"
+  ],
+  "author": "Deborah Mizarhi",
+  "license": "ISC",
+  "dependencies": {
+    "deborah-password-generator": "^1.0.0"
+  }
+}

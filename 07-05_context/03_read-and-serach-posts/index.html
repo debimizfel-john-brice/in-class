@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="jquery-3.7.0.js"></script>
+    <script defer src="script.js"></script>
+
+    <title>03_read-and-serach-posts</title>
+  </head>
+  <body>
+    <header>
+      <h1>Posts</h1>
+    </header>
+
+    <button class="switcher active" data-section="text_section_box">Search by text</button>
+    <button class="switcher" data-section="user_section_box">Search by user</button>
+    <br /><br />
+
+    <section id="text_section_box" class="section">
+      <input id="search_box" type="search" placeholder="Search posts..." />
+      <button id="search">Search</button>
+    </section>
+
+    <section id="user_section_box" class="section">
+      <select name="" id="user_box"></select>
+      <button id="posts_by_user_id">Get post by user</button>
+    </section>
+
+    <main></main>
+  </body>
+</html>

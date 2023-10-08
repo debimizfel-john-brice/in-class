@@ -1,0 +1,15 @@
+.Cars {
+    border: solid 1px black;
+    margin: 20px;
+    padding: 15px;
+
+    & .images {
+        display: flex;
+
+        & img {
+            height: auto;
+            max-width: 100%;
+            width: 200px;
+        }
+    }
+}

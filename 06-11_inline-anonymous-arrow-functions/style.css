@@ -1,0 +1,10 @@
+ .container {
+     align-items: center;
+     display: flex;
+     height: 100vh;
+     justify-content: center;
+ }
+
+ .container button {
+     margin-right: 10px;
+ }

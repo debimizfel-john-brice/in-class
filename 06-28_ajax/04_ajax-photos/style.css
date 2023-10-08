@@ -1,0 +1,13 @@
+img {
+    width: 100px;
+}
+table{
+    margin: auto;
+}
+table th:first-child {
+    width: 511px;
+}
+
+table th:last-child {
+    width: 104px;
+}

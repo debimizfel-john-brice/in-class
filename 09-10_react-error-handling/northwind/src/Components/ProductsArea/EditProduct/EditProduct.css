@@ -1,0 +1,10 @@
+.EditProduct {
+    display: flex;
+    justify-content: center;
+}
+
+.EditProduct input {
+    display: block;
+    margin-bottom: 10px;
+}
+

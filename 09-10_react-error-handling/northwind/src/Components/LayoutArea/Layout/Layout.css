@@ -1,0 +1,20 @@
+.Layout {
+    display: grid;
+    flex-flow: wrap;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 10% auto 5%;
+    height: 100%;
+}
+
+.Layout>* {
+    border: 1px solid grey;
+}
+
+.Layout>header,
+.Layout>footer {
+    grid-column: span 6;
+}
+
+.Layout>main {
+    grid-column: span 5;
+}

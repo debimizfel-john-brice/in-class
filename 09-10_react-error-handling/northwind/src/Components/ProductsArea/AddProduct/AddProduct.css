@@ -1,0 +1,14 @@
+.AddProduct {
+    display: flex;
+    justify-content: center;
+}
+
+.AddProduct input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.err {
+    color: red;
+    font-size: 12px;
+}

@@ -1,0 +1,22 @@
+img {
+    width: 100px;
+}
+
+table {
+    margin: auto;
+    text-align: center;
+
+}
+
+table th:nth-child(1),
+table th:nth-child(2) {
+    width: 80px;
+}
+
+table th:nth-child(3) {
+    width: 160px;
+}
+
+table th:nth-child(4) {
+    width: 130px;
+}
