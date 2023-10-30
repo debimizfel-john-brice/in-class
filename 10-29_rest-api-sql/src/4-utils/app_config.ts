@@ -1,4 +1,8 @@
 class AppConfig {
+
+    // Server port:
+    static port = 4000;
+
     // Database host:
     static my_sql_host = "localhost";
 
@@ -9,7 +13,9 @@ class AppConfig {
     static my_sql_user = "root";
 
     // Database password:
-    static my_sql_password = "root";
+    static my_sql_password = "";
 
 }
+
 export default AppConfig;
+
