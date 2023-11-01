@@ -1,3 +1,4 @@
+import { OkPacket } from "mysql";
 import ProductModel from "../2-models/product_model";
 import dal from "../4-utils/dal";
 
@@ -23,15 +24,14 @@ async function getOneProduct(id: number): Promise<ProductModel> {
                 FROM products
                 WHERE ProductID = ${id}`;
     const products = await dal.execute(sql);
-    const product = products[0];
-    return product;
+    return products[0];
 }
 
 // Add product
 async function addProduct(product: ProductModel): Promise<ProductModel> {
     const sql = `INSERT INTO products(ProductName, UnitPrice, UnitsInStock)
                 VALUES('${product.name}', ${product.price}, ${product.stock})`;
-    const info = await dal.execute(sql);
+    const info: OkPacket = await dal.execute(sql);
     product.id = info.insertId;
     return product;
 }
