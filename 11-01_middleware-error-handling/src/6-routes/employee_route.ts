@@ -10,7 +10,7 @@ router.get('/api/employees', async (req: Request, res: Response) => {
     res.json(employee);
 });
 
-router.get('/api/employees/:id', async (req: Request, res: Response) => {
+router.get('/api/employees/:id([0-9]+)', async (req: Request, res: Response) => {
     const id = +req.params.id;
     const employee = await employees_service.getEmployee(id);
     res.json(employee);
@@ -25,7 +25,7 @@ router.post('/api/employees', async (req: Request, res: Response) => {
     res.status(201).json(addedEmployee);
 });
 
-router.put('/api/employees/:id', async (req: Request, res: Response) => {
+router.put('/api/employees/:id([0-9]+)', async (req: Request, res: Response) => {
     req.body.id = +req.params.id;
     const employee = new EmployeeModel(req.body);
     const updatedEmployee =
@@ -33,7 +33,7 @@ router.put('/api/employees/:id', async (req: Request, res: Response) => {
     res.json(updatedEmployee);
 });
 
-router.delete('/api/employees/:id', async (req: Request, res: Response) => {
+router.delete('/api/employees/:id([0-9]+)', async (req: Request, res: Response) => {
     const id = +req.params.id;
     await employees_service.deleteEmployee(id);
     res.sendStatus(204);

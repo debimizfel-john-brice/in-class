@@ -3,5 +3,8 @@
         "target": "ES6",
         "esModuleInterop": true,
         "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "out",
+        "module": "commonjs",
     }
 }
