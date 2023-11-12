@@ -1,0 +1,216 @@
+function toLocaleString() { [native code] }
+Method: GET - URL: /api/products
+-------------------------
+function toLocaleDateString() { [native code] }
+Method: GET - URL: /api/products
+-------------------------
+function toLocaleDateString() { [native code] }
+Method: GET - URL: /api/products
+-------------------------
+function toLocaleDateString() { [native code] }
+Method: GET - URL: /api/cats
+-------------------------
+function toLocaleDateString() { [native code] }
+Method: GET - URL: /api/cats
+-------------------------
+function toLocaleDateString() { [native code] }
+Method: GET - URL: /api/cats
+-------------------------
+function toLocaleDateString() { [native code] }
+Method: GET - URL: /api/cats
+-------------------------
+function toLocaleDateString() { [native code] }
+Method: GET - URL: /api/cats
+-------------------------
+11/1/2023
+Method: GET - URL: /api/cats
+-------------------------
+11/1/2023
+Method: GET - URL: /api/cats
+-------------------------
+11/1/2023
+Method: GET - URL: /api/cats
+-------------------------
+11/1/2023
+Method: GET - URL: /api/cats
+-------------------------
+11/1/2023
+Method: GET - URL: /api/cats
+-------------------------
+11/1/2023
+Method: GET - URL: /api/cats
+-------------------------
+11/1/2023
+Method: GET - URL: /api/cats
+-------------------------
+11/1/2023
+Method: GET - URL: /api/poducts
+-------------------------
+11/1/2023
+Method: GET - URL: /api/poducts
+-------------------------
+11/1/2023
+Method: GET - URL: /api/products/2
+-------------------------
+11/1/2023
+Method: GET - URL: /api/products/20
+-------------------------
+11/1/2023
+Method: GET - URL: /api/products/200
+-------------------------
+11/1/2023
+Method: GET - URL: /api/products/2150
+-------------------------
+11/1/2023
+Method: PUT - URL: /api/products/790
+-------------------------
+11/1/2023
+Method: GET - URL: /api/products/2150
+-------------------------
+11/1/2023
+Method: GET - URL: /api/poductss
+-------------------------
+11/1/2023
+Method: GET - URL: /api/poductss
+-------------------------
+11/1/2023
+Method: GET - URL: /api/poductss
+-------------------------
+11/1/2023
+Method: GET - URL: /api/poducts
+-------------------------
+11/1/2023
+Method: GET - URL: /api/poducts
+-------------------------
+11/1/2023
+Method: GET - URL: /api/products
+-------------------------
+11/1/2023
+Method: GET - URL: /api/productss
+-------------------------
+11/1/2023
+Method: GET - URL: /api/products
+-------------------------
+11/1/2023
+Method: GET - URL: /api/products/2
+-------------------------
+11/1/2023
+Method: GET - URL: /api/products/20
+-------------------------
+11/1/2023
+Method: GET - URL: /api/products/200
+-------------------------
+11/1/2023
+Method: GET - URL: /api/products/200
+-------------------------
+11/1/2023
+Method: PUT - URL: /api/products/790
+-------------------------
+11/1/2023
+Method: GET - URL: /api/products/200
+-------------------------
+11/1/2023
+Method: GET - URL: /api/products/200
+-------------------------
+11/1/2023
+Method: GET - URL: /api/products/200
+-------------------------
+11/1/2023
+Method: GET - URL: /api/products/200
+-------------------------
+11/1/2023
+Method: GET - URL: /api/products/200
+-------------------------
+11/1/2023
+Method: GET - URL: /api/products/1
+-------------------------
+11/1/2023
+Method: GET - URL: /api/products/200
+-------------------------
+11/1/2023
+Method: GET - URL: /api/products/200
+-------------------------
+11/1/2023
+Method: GET - URL: /api/productss
+-------------------------
+11/1/2023
+Method: GET - URL: /api/products/200
+-------------------------
+11/1/2023
+Method: GET - URL: /api/products/200
+-------------------------
+11/1/2023
+Method: GET - URL: /api/productsa
+-------------------------
+11/1/2023
+Method: POST - URL: /api/products
+-------------------------
+11/1/2023
+Method: POST - URL: /api/products
+-------------------------
+11/1/2023
+Method: GET - URL: /api/productss
+-------------------------
+11/1/2023
+Method: GET - URL: /api/productss
+-------------------------
+11/1/2023
+Method: GET - URL: /api/products/200
+-------------------------
+11/1/2023
+Method: GET - URL: /api/products/200
+-------------------------
+11/1/2023
+Method: GET - URL: /api/products/200
+-------------------------
+11/8/2023
+Method: POST - URL: /api/register
+-------------------------
+11/8/2023
+Method: POST - URL: /api/register/
+-------------------------
+11/8/2023
+Method: POST - URL: /api/register/
+-------------------------
+11/8/2023
+Method: POST - URL: /api/register
+-------------------------
+11/8/2023
+Method: POST - URL: /api/register/
+-------------------------
+11/8/2023
+Method: POST - URL: /api/register/
+-------------------------
+11/8/2023
+Method: POST - URL: /api/register
+-------------------------
+11/8/2023
+Method: POST - URL: /api/register
+-------------------------
+11/8/2023
+Method: POST - URL: /api/register
+-------------------------
+11/8/2023
+Method: POST - URL: /api/login
+-------------------------
+11/8/2023
+Method: POST - URL: /api/login
+-------------------------
+11/8/2023
+Method: POST - URL: /api/login
+-------------------------
+11/8/2023
+Method: POST - URL: /api/register
+-------------------------
+11/8/2023
+Method: POST - URL: /api/login
+-------------------------
+11/8/2023
+Method: POST - URL: /api/register
+-------------------------
+11/8/2023
+Method: POST - URL: /api/register
+-------------------------
+11/8/2023
+Method: POST - URL: /api/register
+-------------------------
