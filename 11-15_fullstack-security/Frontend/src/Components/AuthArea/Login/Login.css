@@ -1,0 +1,13 @@
+.Login {
+	text-align: center;
+}
+
+.Login form{
+    text-align: left;
+    min-width: 350px;
+}
+
+.Login input{
+    margin-bottom: 10px;
+    display: block;
+}

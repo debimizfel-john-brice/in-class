@@ -1,0 +1,13 @@
+.Register {
+	text-align: center;
+}
+
+.Register form{
+    text-align: left;
+    min-width: 350px;
+}
+
+.Register input{
+    margin-bottom: 10px;
+    display: block;
+}

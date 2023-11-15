@@ -1,0 +1,13 @@
+.EditProduct {
+    text-align: center;
+}
+
+.EditProduct form{
+    text-align: left;
+    min-width: 350px;
+}
+
+.EditProduct input{
+    margin-bottom: 10px;
+    display: block;
+}

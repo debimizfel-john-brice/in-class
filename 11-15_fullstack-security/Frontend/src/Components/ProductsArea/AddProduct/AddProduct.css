@@ -1,0 +1,15 @@
+.AddProduct {
+	text-align: center;
+}
+
+.AddProduct form{
+    text-align: left;
+    min-width: 350px;
+}
+
+.AddProduct input{
+    margin-bottom: 10px;
+    display: block;
+}
+
+

@@ -1,0 +1,11 @@
+.Products > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.Products a{
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 20px;
+}

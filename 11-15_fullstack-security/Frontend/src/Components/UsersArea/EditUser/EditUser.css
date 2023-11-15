@@ -1,0 +1,13 @@
+.EditUser {
+	text-align: center;
+}
+
+.EditUser form{
+    text-align: left;
+    min-width: 350px;
+}
+
+.EditUser input{
+    margin-bottom: 10px;
+    display: block;
+}

@@ -1,0 +1,15 @@
+.AuthMenu {
+    display: flex;
+    gap: 10px;
+}
+
+.AuthMenu a,
+.link {
+	color: blueviolet;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.AuthMenu a.active{
+    font-weight: bold;
+}
