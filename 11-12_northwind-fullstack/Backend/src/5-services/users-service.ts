@@ -7,7 +7,7 @@ import cyber from "../4-utils/cyber";
 
 
 // update user:
-async function updateUser(user:UserModel): Promise<string>{
+async function updateUser(user: UserModel): Promise<string> {
 
     // Validation:
     // ....
@@ -26,12 +26,12 @@ async function updateUser(user:UserModel): Promise<string>{
     // Execute:
     const result: OkPacket = await dal.execute(sql);
 
-    // validate 
-    if(result.affectedRows === 0) throw new ResourceNotFoundError(user.userId);
+    // validate
+    if (result.affectedRows === 0) throw new ResourceNotFoundError(user.userId);
 
     // Create token:
     const token = cyber.createToken(user);
-    
+
     // Return:
     return token;
 
